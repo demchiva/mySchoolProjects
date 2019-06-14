@@ -7,3 +7,19 @@ Napište program, který dešifruje obrázek zašifrovaný prvním programem. V�
 Porovnejte původní obrázek a jeho zašifrovanou podobu a vysvětlete svá zjištění
 Změňte pro šifrování i dešifrování použitý operační mód na CBC a vytvořte (původní_jméno)_cbc.bmp a (původní_jméno)_cbc_dec.bmp(upřesní cvičící)
 Porovnejte původní obrázek a jeho zašifrovanou podobu a vysvětlete svá zjištění
+
+Program se bude volat s následujícími přepínači/argumenty:
+  -e sifrovani
+  -d desifrovani
+  ecb mod ecb
+  cbc mod cbc
+  nazev vstupniho souboru
+
+Výstup:
+  V případě chyby žádný výstupní soubor
+  Zašifrovaný soubor s příponou _ecb.bmp/_cbc.bmp
+  Dešifrovaný soubor s příponou _dec.bmp
+
+Návratové hodnoty:
+  0 vše OK
+  !=0 chyba
